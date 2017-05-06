@@ -2,7 +2,7 @@
 
 This is just a hobby project of mine - feel free to use it or contribute, but I do not have the time or resources to support, and cannot be held responsible for any accidents or misfortunes caused by the code, use it at your own risk.
 
-Vendia-løbet is a danish adventure-race for voluntary scouts. When a team reaches a checkpoint, their progress is reported to a central server (using a QR-code at the checkpoint), and the centralized data is used to monitor the progress of the race as well as the status of the system.
+Vendia-løbet is a danish adventure-race for voluntary scouts. When a team reaches a checkpoint(/post), their progress is reported to a central server (using a QR-code at the checkpoint), and the centralized data is used live to monitor the progress of the race as well as the status of the teams and the system. An operator is also able to mark teams as having exited from the race or having been observed. Due to technicalities and human error, some datapoint might be duplicate (although with different timestamps), in which case the earliest point of type 'checkin' is preferred.
 
 Checkpoints are generally arranged in a sequential order, although checkpoints can be skipped by teams, and hidden or bonus checkpoints might occur on the route. Minor races within the race can occur, where checkpoints are placed closer and can be visited by the teams in random order. Hence the order of the checkpoints is not assumed to be numeric, and is not known in advance of the race (it must be inferred from the data).
 
